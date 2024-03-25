@@ -1,0 +1,58 @@
+body {
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 97%;
+    position: absolute;
+    display: table;
+    margin: 0; /* Added to reset any default margin */
+}
+
+p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0; /* Prevents default paragraph margins */
+}
+
+/* Styling for the name, replicating <font size="7"><i><b> */
+.name-style {
+    font-size: 36px; /* Approximate conversion from <font size="7"> */
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 20px);;
+    height: calc(100% - 20px);
+    /*overflow: auto;*/
+}
+
+/* Styling for the image to ensure it matches your inline styles */
+img {
+    width: 560px;
+}
+
+/* Styling for links */
+a {
+    text-decoration: underline; /* Indicates clickability */
+    color: #007bff; /* Bright blue, typical for links */
+    cursor: pointer; /* Changes cursor to indicate it's clickable */
+    transition: color 0.2s ease-in-out; /* Smooth color transition */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+    text-decoration: none; /* Removes underline on hover for a style change */
+}
+
+a:active {
+    color: #ff0000; /* Red when clicked, indicating active state */
+}
+
+a:visited {
+    color: #6f42c1; /* Differentiates visited links */
+}
