@@ -1,3 +1,3 @@
 # PortfolioWebsite
 
-https://www.johncs.dev/
+https://byejohn.github.io/PortfolioWebsite/
